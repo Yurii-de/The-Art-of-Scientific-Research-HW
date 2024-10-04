@@ -4,26 +4,28 @@
 \usepackage{amsmath,amsfonts,amssymb}
 \usepackage{graphicx}
 \usepackage{a4wide}
-\title{Reconstructed abstract of the paper ``Put the paper title or DOI here''}
+\title{Reconstructed abstract of the paper ``GRAND: Graph Neural Diffusion''}
 %\author{not specified, not necessary here}
-\date{}
+\date{4.10.2024}
 \begin{document}
 \maketitle
 
 \begin{abstract}
-The abstract is limited to 600 characters. It may contain a wide-range field of the investigated problem, narrow problem to focus on, features and conditions of the problem, the idea of the suggested solution, the novelty and alternative solutions to compare with, application to illustrate with.
+The paper introduces Graph Neural Diffusion (GRAND), a novel framework that conceptualizes graph neural networks (GNNs) as a continuous diffusion process modeled by partial differential equations (PDEs). By treating GNNs as discretizations of an underlying PDE, this approach allows for the development of a new class of GNNs capable of addressing key challenges like depth, oversmoothing, and bottleneck issues that hinder current graph learning models through both implicit and explicit discretization schemes. GRAND demonstrates competitive performance across multiple graph learning benchmarks, with both linear and nonlinear versions outperforming traditional methods while maintaining computational efficiency.
 \end{abstract}
-\paragraph{Keywords:} The Art On Scientific Research, Abstract Reconstruction, Please Put Yours 
+\paragraph{Keywords:} Graph Neural Networks, Diffusion Processes, Partial Differential Equations, Numerical Discretization,  Deep Graph Architectures, Graph Representation Learning
 
 \paragraph{Highlights:}
 \begin{enumerate}
-\item Highlight one
-\item Highlight two
-\item Highlight three
+\item GRAND introduces a continuous diffusion process framework for GNNs based on PDE discretization.
+\item The model addresses common GNN challenges like oversmoothing and bottlenecks through advanced numerical schemes.
+\item Linear and nonlinear variants of GRAND are proposed, showing competitive results on graph learning benchmarks.
+\item The use of implicit schemes enables the construction of deep GNN architectures with improved stability.
+\item GRAND achieves state-of-the-art performance while requiring fewer parameters compared to traditional GNN models.
 \end{enumerate}
 
 \section{Introduction}
-Explain the reasons you chose the paper~\cite{9095246}. The reasons shall not be personal. They shall enlighten the novelty, impact, or contributions.  
+This paper~\cite{9095246} presents a groundbreaking approach to enhancing GNN performance and stability by leveraging the well-established mathematical foundation of diffusion processes and PDEs. The innovative approach of treating GNNs as discrete approximations of diffusion processes provides a clear pathway to building deeper and more stable graph architectures. Furthermore, the comprehensive experimentation and performance on benchmark datasets demonstrate its practical impact and versatility, making this contribution both timely and highly relevant for advancing the understanding and application of GNNs in various domains.
 %\begin{figure}
 %\includegraphics[scale=0.35]{SVD_derint}
 %\caption{A rigorous description of what the reader sees on the plot and the consequences of the shown result}
